@@ -8,7 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9b929b599f63f82e",
+            "id": "f9c9a54be62fb1be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "7f1ab231c64c9c64",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SCHEMA.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SCHEMA"
+            }
+          },
+          {
+            "id": "04b4f58b5f39f8e7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,7 +49,8 @@
               "title": "SCHEMA"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -83,8 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "b7b6f270e7ec7835",
@@ -200,6 +228,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9b929b599f63f82e",
-  "lastOpenFiles": []
+  "active": "04b4f58b5f39f8e7",
+  "lastOpenFiles": [
+    "CdC_WhatAreTheyWorth.md",
+    "SCHEMA.md",
+    "README.md",
+    "CahierDesCharges"
+  ]
 }

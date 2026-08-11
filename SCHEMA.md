@@ -1,31 +1,3 @@
-
-This app should be centered and used by a single professor to manage his classes.
-
-All of this can become a lot really quickly. So it should help to define clearly each use case that the user will use this software in. Let's start by a simple list of what the user can do:
-
-⁠**Have multiple courses**
-
-What does a 'course' mean? Will he teach a group of that course? I guess that in each course, he'll be able to manage multiple groups within it.
-
-**Courses change with the semester**
-
-Since the 'resit' sessions come at the end of the year that means that the software must operate on a year. What that means is that you should be able to manage courses according to the current semester of the cycle and specialty.
-
-The selection menu would therefore work in the following order:
-
-- Semester
-- Course
-> **Result:** list of groups that the user is responsible for in that specific course/semester!
-
-- Section
-- Group
-> **Result:** list of students!
-
-> [!NOTE]
-> since specialties can share courses among them there shouldn't be a separation by specialty.
-
-let's make a preliminary modelization based off of this workflow.
-
 ## ⁠1. TL;DR Diagram
 
 <div align="center">
