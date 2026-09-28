@@ -1,33 +1,57 @@
 
-> [!TODO]
-> define the terms `group`, `section`, `class` etc...
+# 1. Context Overview
 
-This app should be centered arround the use of a single professor to manage his classes. We'll start by defining the basic use cases that the user will have in this software:
+In this section, we'll only cover *les grandes lignes* without going into details, we will address further specifics in the [[#3. Use Cases]] section.
 
-# ⁠Manage courses
+In a typical Algerian university, the pedagogical structure follows a standard grouping of students defined by the LMD system.
 
-Let's start by asking the question: what does 'managing a course' mean? Will he be in charge of a group of students that course? he'll be able to manage multiple groups within it as is usually the case in my experience. But sometimes a professor may be teaching a course without being in charge of any lab (TP) or tutorial/recitation (TD) withing that class. In such a case, the professor should still be able to manage the aggregate grades of all groups within his classes without managing the weekly *assiduity, attendance, test* trilogy.
+"LMD" is an educational framework that organizes higher education into a Licence-Master-Doctorat degree structure. It defines each degree program's academic structure as a  hierarchy of academic levels, each with predefined semesters that in turn contain modules/courses.
 
-TL;DR
-There are two principal workflows that the app should cover
-1. Weekly and per period/session suivie
-2. Final grade management: recite (rattrapage), re-takes (dettes), doublants (repeating the year), note de "controle continue" variable selon le context
+Students of each academic level are first divided in sections and subsequently in groups. A section is a cohort of students that attend the same lectures and likewise, groups take their  labs together (as well as practical work tutorials, francophonly refered to as "TD" for "Travaux Dirigés").
+
+A professor may fufill one of two roles when teaching a class:
+- **Chargé de TD/TP:** responsible of the students of that group, including exam and assiduity grading.
+- **Chargé de Cour:** responsible of the students of that section, including exam and assiduity grading.
+
+The grading for each class is composed of two complementing criterias:
+- **Controle Continue (CC):** worth 40% of the final grade. Depends on assigned homework, test grades, attendance, and the appreciation of the Chargé de TD/TP.
+- **Examen Théorique de Longue/Courte Durée (ETLD/ETCD):** worth 60% of the final grade.
+
+Other types of exams:
+- **Remplacements:** Controvertial replacement exam for students who couldn't make it the day of the original exam
+- **Recite Sessions:** les rattrapages
+- **Retakes:** dettes (or debts)
+- **Doublants:** repeating the year
+Each with its own **grading policy.**
+
+# 2. Scope
+
+This app should be centered arround the use of a single professor to manage his classes.
+
+# 3. Use Cases
+ 
+We'll start by defining the basic use cases that the user will have in this software.
+
+## ⁠3.1. Manage courses
 
 **Courses change with the semester**
+Since the 'resit' sessions come at the end of the year that means that the software must operate on a year. One possible implementation is to allow the user to select courses according to the semester of the degree program.
 
-Since the 'resit' sessions come at the end of the year that means that the software must operate on a year. What that means is that you should be able to manage courses according to the current semester of the cycle and specialty.
+We can imagine the following selection orders:
 
-The selection menu would therefore work in the following order:
+**Which course?**
+1. Degree Program
+2. Academic Level
+3. Semester
+4. Course
+> **Result:** list of all the sections that the user is in charge of for in that specific course
 
-- Semester
-- Course
-> **Result:** list of groups that the user is responsible for in that specific course/semester!
-
-- Section
-- Group
+**Which group?**
+1. Section
+2. Group
 > **Result:** list of students!
 
-> [!NOTE]
-> since specialties can share courses among them there shouldn't be a separation by specialty.
-
-let's make a preliminary modelization based off of this workflow.
+**What to do?**
+The app should incorporate two principal workflows:
+- **Le Suivi d'Assiduité:** Weekly and per period/session
+- **Final grade management:** for all types of exams and their corresponding grading policy.

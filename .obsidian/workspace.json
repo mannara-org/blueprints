@@ -11,12 +11,14 @@
             "id": "804b3fc36cccd720",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "ERDs/preliminary_modelization.svg"
+                "file": "CdC_WhatAreTheyWorth.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "preliminary_modelization"
+              "icon": "lucide-file",
+              "title": "CdC_WhatAreTheyWorth"
             }
           }
         ]
@@ -81,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "b7b6f270e7ec7835",
@@ -183,8 +186,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -200,14 +202,14 @@
   },
   "active": "804b3fc36cccd720",
   "lastOpenFiles": [
-    "SCHEMA.md~",
-    "SCHEMA.dbml~",
-    "4913",
+    "ERDs/preliminary_modelization.svg",
     "SCHEMA.md",
+    "SCHEMA.dbml~",
+    "SCHEMA.md~",
+    "4913",
     "SCHEMA.dbml",
     "README.md",
     "CdC_WhatAreTheyWorth.md",
-    "ERDs/preliminary_modelization.svg",
     "Untitled.md",
     "ERDs/preliminary_modelization.png",
     "Entity-Relation_Diagrams/enrollment_structure.svg",

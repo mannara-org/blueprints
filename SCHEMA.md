@@ -1,4 +1,4 @@
-## ⁠1. TL;DR
+## ⁠1. Schema
 
 <div align="center">
 	<img src="./ERDs/preliminary_modelization.svg">
