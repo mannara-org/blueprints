@@ -34,8 +34,7 @@ We'll start by defining the basic use cases that the user will have in this soft
 
 ## ⁠3.1. Manage courses
 
-**Courses change with the semester**
-Since the 'resit' sessions come at the end of the year that means that the software must operate on a year. One possible implementation is to allow the user to select courses according to the semester of the degree program.
+**Courses change with the semester**<br>Since the 'resit' sessions come at the end of the year that means that the software must operate on a year. One possible implementation is to allow the user to select courses according to the semester of the degree program.
 
 We can imagine the following selection orders:
 
@@ -51,7 +50,6 @@ We can imagine the following selection orders:
 2. Group
 > **Result:** list of students!
 
-**What to do?**
-The app should incorporate two principal workflows:
+**What to do?**<br>The app should incorporate two principal workflows:
 - **Le Suivi d'Assiduité:** Weekly and per period/session
 - **Final grade management:** for all types of exams and their corresponding grading policy.
