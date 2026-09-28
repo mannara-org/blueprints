@@ -19,7 +19,7 @@ The grading for each class is composed of two complementing criterias:
 
 Other types of exams:
 - **Remplacements:** Controvertial replacement exam for students who couldn't make it the day of the original exam
-- **Recite Sessions:** les rattrapages
+- **Resit Sessions:** les rattrapages
 - **Retakes:** dettes (or debts)
 - **Doublants:** repeating the year
 Each with its own **grading policy.**
@@ -34,7 +34,7 @@ We'll start by defining the basic use cases that the user will have in this soft
 
 ## ⁠3.1. Manage courses
 
-**Courses change with the semester**<br>Since the 'resit' sessions come at the end of the year that means that the software must operate on a year. One possible implementation is to allow the user to select courses according to the semester of the degree program.
+**Courses change with the semester**<br>Resit sessions take place towards the end of the year, the software must operate on a year-to-year basis. One possible implementation is to allow the user to select courses according to the semester of the degree program.
 
 We can imagine the following selection orders:
 
