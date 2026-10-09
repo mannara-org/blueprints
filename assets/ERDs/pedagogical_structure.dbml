@@ -1,12 +1,5 @@
 
-
 // 1. Pedagogical Structure
-
-// We mean by 'Pedagogical' the hierarchy of groupings that students are
-// divided in.
-//
-// The structure is pretty straightforward. A specialty has academic levels
-// that each contain sections which are in turn also divided in groups.
 
 
 Table students {

@@ -11,14 +11,12 @@
             "id": "b1e372d49d121965",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "ER_WATW.md",
-                "mode": "source",
-                "source": false
+                "file": "assets/ERDs/academic_structure.svg"
               },
-              "icon": "lucide-file",
-              "title": "ER_WATW"
+              "icon": "lucide-image",
+              "title": "academic_structure"
             }
           }
         ]
@@ -199,25 +197,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f99ace9c6a3ecf8b",
+  "active": "b1e372d49d121965",
   "lastOpenFiles": [
-    "assets/ERDs/academic_structure.svg",
     "ER_WATW.md",
-    "assets/ERDs/academic_structure.dbml~",
-    "assets/ERDs/4913",
     "assets/ERDs/pedagogical_structure.svg",
-    "CdC_WATW.md",
+    "assets/ERDs/academic_structure.svg",
+    "assets/ERDs/academic_structure.dbml~",
     "README.md",
-    "test.md",
+    "assets/ERDs/4913",
+    "CdC_WATW.md",
     "assets/ERDs/pedagogical_structure.dbml~",
-    "SCHEMA.dbml~",
-    "4913",
-    "assets/ERDs/academic_structure.dbml",
     "assets/ERDs/pedagogical_structure.dbml",
+    "assets/ERDs/academic_structure.dbml",
+    "SCHEMA.dbml~",
+    "test.md",
     "SCHEMA.md",
     "assets/preliminary_modelization.svg",
     "assets/ERDs",
     "SCHEMA.md~",
+    "4913",
     "SCHEMA.dbml",
     "ERDs/preliminary_modelization.png",
     "Entity-Relation_Diagrams/enrollment_structure.svg",

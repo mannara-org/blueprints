@@ -1,4 +1,11 @@
 
+Table sections {
+  id integer [pk, increment]
+  academic_level_id integer [not null]
+  identifier varchar [not null]
+}
+
+
 Table groups {
   id integer [pk, increment]
   number integer [not null]
@@ -14,8 +21,6 @@ Table academic_levels {
 
 
 // 2. Academic Structure
-
-// The way that semesters and course enrollments/teaching are structured
 
 
 Table courses {
@@ -45,6 +50,7 @@ Table course_teacher {
   id integer [pk, increment]
   course_id integer [not null]
   professor_id integer [not null]
+  section_id integer [not null]
 }
 
 
@@ -59,6 +65,11 @@ Table semester_courses {
   id integer [pk, increment]
   semester_id integer [not null]
   course_id integer [not null]
+  has_td boolean [not null]
+  num_td integer [not null]
+  has_tp boolean [not null]
+  num_tp integer [not null]
+  coef integer
 }
 
 
@@ -68,7 +79,7 @@ Ref: semester_courses.semester_id > semesters.id
 
 Ref: semesters.academic_level_id > academic_levels.id
 
-Ref: course_assistant.course_id > courses.id
+Ref: course_assistant.course_id > semester_courses.id
 
 Ref: course_assistant.group_id > groups.id
 
@@ -76,4 +87,6 @@ Ref: course_assistant.professor_id > professors.id
 
 Ref: course_teacher.professor_id > professors.id
 
-Ref: course_teacher.course_id > courses.id
+Ref: course_teacher.course_id > semester_courses.id
+
+Ref: course_teacher.section_id > sections.id
