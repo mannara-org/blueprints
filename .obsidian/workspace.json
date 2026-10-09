@@ -176,8 +176,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -185,8 +185,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -200,7 +199,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b1e372d49d121965",
+  "active": "f99ace9c6a3ecf8b",
   "lastOpenFiles": [
     "SCHEMA.dbml~",
     "CdC_WATW.md",
