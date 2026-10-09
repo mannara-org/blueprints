@@ -176,8 +176,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -185,8 +185,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,24 +201,29 @@
   },
   "active": "b1e372d49d121965",
   "lastOpenFiles": [
-    "SCHEMA.dbml~",
-    "CdC_WATW.md",
+    "assets/ERDs/academic_structure.svg",
     "ER_WATW.md",
-    "test.md",
-    "README.md",
-    "SCHEMA.md",
+    "assets/ERDs/academic_structure.dbml~",
+    "assets/ERDs/4913",
     "assets/ERDs/pedagogical_structure.svg",
+    "CdC_WATW.md",
+    "README.md",
+    "test.md",
+    "assets/ERDs/pedagogical_structure.dbml~",
+    "SCHEMA.dbml~",
+    "4913",
+    "assets/ERDs/academic_structure.dbml",
+    "assets/ERDs/pedagogical_structure.dbml",
+    "SCHEMA.md",
     "assets/preliminary_modelization.svg",
     "assets/ERDs",
     "SCHEMA.md~",
-    "4913",
     "SCHEMA.dbml",
     "ERDs/preliminary_modelization.png",
     "Entity-Relation_Diagrams/enrollment_structure.svg",
     "Entity-Relation_Diagrams/preliminary_modelization.svg",
     "Entity-Relation_Diagrams/pedagogical_structure.svg",
     "pedagogical_structure.svg",
-    "pedagogical_structure.png",
-    "CahierDesCharges"
+    "pedagogical_structure.png"
   ]
 }
